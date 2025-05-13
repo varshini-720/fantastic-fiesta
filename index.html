@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Solana Sweep Tool</title>
+  <meta charset="UTF-8" />
+  <script src="https://unpkg.com/@solana/web3.js@1.73.3/lib/index.iife.js"></script>
+</head>
+<body style="background-color: black; color: white; text-align: center; padding-top: 50px;">
+  <h1>Solana Sweep Tool</h1>
+  <p>This tool sends SOL from your airdrop wallets to your main wallet using Phantom.</p>
+  <button onclick="connectWallet()">Connect Phantom Wallet</button>
+  <button onclick="sweepSol()">Sweep All SOL</button>
+  <p id="status"></p>
+  <script src="script.js"></script>
+</body>
+</html>
