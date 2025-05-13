@@ -1,5 +1,5 @@
 
-const BACKEND_URL = "https://afef9ec.onrender.com";
+const BACKEND_URL = "https://congenial-lamp.onrender.com";
 
 let provider = null;
 let publicKey = null;
